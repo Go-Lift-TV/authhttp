@@ -12,8 +12,10 @@
 
 This plugin is a copy of the HTTP Auth Plugin written by Pieter Hollants.
 It has been modified only slightly to allow authentication against arbitrary HTTP
-headers. I use this with nginx proxy auth behind Organizr. It allows users that have
-already authenticated to Organizr to log into DokuWiki automatically.
+headers. [I use this](https://golift.tv/wiki) with nginx proxy auth behind
+[Organizr](https://github.com/causefx/Organizr). It allows users that have
+already authenticated to Organizr to log into your reverse-proxied
+[DokuWiki](http://dokuwiki.org) installation automatically.
 
 Below you will find a sample Nginx config to use this with Organizr inside the
 letsencrypt Docker container. You can adapt this to suit your app pretty easy.
